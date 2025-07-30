@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable hoisting in js</title>
+</head>
+<body>
+    <script>
+
+    // var x=7;
+
+    // function getName() {
+    //     console.log('namasta js');
+    // }
+    // function getName2() {
+        
+    // }
+    // getName()
+    // console.log(x);
+    // console.log(getName2);
+
+    //   it will first print namasta etc and then x value
+
+    // second example of hoisting
+    // getName()
+    // console.log(x);
+    
+    // var x=3;
+    // function getName() {
+    //     console.log('namasta naseem');
+        
+    // }
+
+    // it will print namast etc but in second it wil say undefined
+    // just because in global execution context two phases formed one is memory creation and second is execution code before code execution memeory creation runs . in memory creation it is x:undefined so it gives undefine
+
+
+
+// another best example 
+naseem()
+console.log(x);
+
+function naseem() {
+    console.log('hello');
+    
+}
+//  it will first print hello and in second it will say x is not define
+// here creates diff btw undefined and not defined
+// it say not defined because we have not allocate space or memory for x in memeory creation there will be no x and when it dont find it will say x is not define
+
+
+    
+    </script>
+</body>
+</html>
