@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This AND Window Object</title>
+</head>
+<body>
+    <script>
+        // this and window 
+        //  window:It is a global object .It created even the file is empty means if there is no code even though it creates
+        // It creates when code runs a global object is created along with global execution context and also a this Global variable is created
+        // this===window
+        // true
+        // we dont need to put this or window with every fxn or variable to access value because it knows and it assumes that we are getting value from  global scope .
+        // examples
+
+        //  var x=10;
+          // console.log(window.x);
+            // console.log(this.x);
+
+        //  function hello() {
+        //     var y=11;
+            // console.log(y); 
+            // console.log(window.y);
+            // console.log(this.y);
+            // it will not acess y because it is not in global scope and syas undefined
+
+            
+        //  }
+
+// console.log(window.y);
+// same undefined
+
+         hello()
+           
+            
+            // undefinded and not defined
+            // undefine  : the variable is declared but has no valuse assigned
+            //  not defined: the variable does not exists at all means the variable has never declared
+    </script>
+</body>
+</html>

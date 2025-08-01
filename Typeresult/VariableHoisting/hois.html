@@ -38,19 +38,56 @@
 
 
 // another best example 
-naseem()
-console.log(x);
 
-function naseem() {
-    console.log('hello');
+// naseem()
+// console.log(x);
+
+// function naseem() {
+//     console.log('hello');
     
-}
+// }
+
 //  it will first print hello and in second it will say x is not define
 // here creates diff btw undefined and not defined
 // it say not defined because we have not allocate space or memory for x in memeory creation there will be no x and when it dont find it will say x is not define
 
 
+
+// best example of hoisting of fxns
+// goodbye('hello')
+
+// function goodbye(a) {
+//     console.log('goodbye' + a);
     
+// }
+    
+
+// function goodbye() {
+//     console.log('tello');
+    
+// }
+// goodbye()
+// it will print tello two times it will overwrite first fxn also
+
+
+// how fxns work behind the scene.
+
+var x=10;
+a()
+b()
+console.log(x);
+
+function a() {
+var x=11;
+console.log(x);   
+}
+
+function b() {
+var x=22;
+console.log(x);
+}
+
+
     </script>
 </body>
 </html>
